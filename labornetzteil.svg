@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 639 1318" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-686.757,-660.768)">
+        <rect x="920.737" y="662.643" width="172.719" height="29.373" style="fill:rgb(199,199,199);stroke:rgb(68,68,68);stroke-width:3.75px;"/>
+    </g>
+    <g transform="matrix(0.782903,0,0,1.01116,-411.734,-693.527)">
+        <path d="M1340.16,750.207C1340.16,727.73 1316.6,709.481 1287.56,709.481L580.104,709.481C551.073,709.481 527.503,727.73 527.503,750.207L527.503,1946.92C527.503,1969.39 551.073,1987.64 580.104,1987.64L1287.56,1987.64C1316.6,1987.64 1340.16,1969.39 1340.16,1946.92L1340.16,750.207Z" style="fill:rgb(235,235,235);stroke:rgb(209,209,209);stroke-width:2.76px;"/>
+    </g>
+    <g transform="matrix(1.16548,0,0,1,-871.457,-671.349)">
+        <g transform="matrix(1,0,0,1,2.90496,0)">
+            <g transform="matrix(1.12614,0,0,0.876608,573.056,-215.024)">
+                <clipPath id="_clip1">
+                    <rect x="221.059" y="1644.77" width="352.283" height="96.154"/>
+                </clipPath>
+                <g clip-path="url(#_clip1)">
+                    <g transform="matrix(0.761907,-0,-0,1.14076,152.523,1011.14)">
+                        <use xlink:href="#_Image2" x="90.076" y="560.131" width="462.37px" height="84.289px" transform="matrix(0.99864,0,0,0.991638,0,0)"/>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(-1.12614,-0.000638953,0.000181066,-0.319124,1467.36,1410.56)">
+                <clipPath id="_clip3">
+                    <rect x="221.059" y="1644.77" width="352.283" height="96.154"/>
+                </clipPath>
+                <g clip-path="url(#_clip3)">
+                    <g transform="matrix(-0.761907,0.0015255,-0.000503829,-3.13357,641.978,2315.09)">
+                        <use xlink:href="#_Image4" x="90.062" y="183.807" width="462.39px" height="30.91px" transform="matrix(0.998683,0,0,0.9971,0,0)"/>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(0.999561,0,0,0.728463,0.359417,268.371)">
+                <rect x="819.555" y="853.148" width="399.323" height="457.219" style="fill:none;stroke:black;stroke-width:8.58px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,1.43809,0)">
+            <rect x="822.357" y="890.799" width="393.131" height="332.155" style="fill:rgb(140,191,255);"/>
+        </g>
+        <path d="M820.343,815.835L820.343,1314.24" style="fill:none;stroke:rgb(55,55,55);stroke-width:5.76px;"/>
+        <g transform="matrix(1,0,0,1,402.806,0)">
+            <path d="M820.343,815.835L820.343,1314.24" style="fill:none;stroke:rgb(55,55,55);stroke-width:5.76px;"/>
+        </g>
+    </g>
+    <g id="Volts" transform="matrix(2.31619,0,0,2.31619,-1930.11,298.266)">
+        <g id="path8654" transform="matrix(3.45681,0,0,-3.45681,1067.84,210.382)">
+            <path d="M0,0C0,4.536 -3.677,8.213 -8.212,8.213C-12.748,8.213 -16.425,4.536 -16.425,0C-16.425,-4.535 -12.748,-8.212 -8.212,-8.212C-3.677,-8.212 0,-4.535 0,0Z" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.11px;stroke-miterlimit:4;"/>
+        </g>
+        <g id="BTN-VOLTS" serif:id="BTN VOLTS" transform="matrix(3.45681,0,0,-3.45681,1067.84,210.382)">
+            <path d="M0,0C0,4.536 -3.677,8.213 -8.212,8.213C-12.748,8.213 -16.425,4.536 -16.425,0C-16.425,-4.535 -12.748,-8.212 -8.212,-8.212C-3.677,-8.212 0,-4.535 0,0" style="fill:rgb(124,124,124);fill-rule:nonzero;stroke:rgb(68,68,68);stroke-width:1.3px;stroke-linecap:butt;stroke-miterlimit:2;"/>
+        </g>
+        <g transform="matrix(1.3492,1.75933e-32,1.94552e-32,1.3492,-352.635,-591.455)">
+            <text x="987.185px" y="573.647px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16px;">V<tspan x="996.67px 1006.44px " y="573.647px 573.647px ">ol</tspan>t</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-702.68,-671.349)">
+        <g transform="matrix(0.488234,0,0,0.488234,981.074,1272.84)">
+            <path d="M177.53,1289.11L229.388,1289.11L229.388,1361.14" style="fill:none;stroke:rgb(68,68,68);stroke-width:7.68px;"/>
+            <g transform="matrix(1,0,0,1,-3.90596,0)">
+                <path d="M178.471,1362.77L288.558,1362.77" style="fill:none;stroke:rgb(68,68,68);stroke-width:7.68px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-4.40397,-4.68657)">
+                <path d="M196.553,1391.73L271.473,1391.73" style="fill:none;stroke:rgb(68,68,68);stroke-width:7.68px;"/>
+            </g>
+            <g transform="matrix(0.654838,0,0,0.654838,84.2094,479.275)">
+                <path d="M197.209,1423.32L246.868,1423.32" style="fill:none;stroke:rgb(68,68,68);stroke-width:11.73px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,18.6954,0)">
+            <g transform="matrix(1,0,0,1,-885.546,-51.9898)">
+                <g transform="matrix(1,0,0,1,0.14104,2.6654)">
+                    <circle cx="1702.01" cy="1919.61" r="63.923" style="fill:rgb(46,46,46);stroke:black;stroke-width:8.33px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,1209.88,-181.239)">
+                    <circle cx="492.265" cy="2103.51" r="29.207" style="fill:rgb(107,107,107);stroke:black;stroke-width:8.33px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,-700.451,-51.9898)">
+                <g transform="matrix(1,0,0,1,0.14104,2.6654)">
+                    <circle cx="1702.01" cy="1919.61" r="63.923" style="fill:rgb(62,211,48);stroke:black;stroke-width:8.33px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,1209.88,-181.239)">
+                    <circle cx="492.265" cy="2103.51" r="29.207" style="fill:rgb(107,107,107);stroke:black;stroke-width:8.33px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,-515.356,-51.9898)">
+                <g transform="matrix(1,0,0,1,0.14104,2.6654)">
+                    <circle cx="1702.01" cy="1919.61" r="63.923" style="fill:rgb(184,17,0);stroke:black;stroke-width:8.33px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,1209.88,-181.239)">
+                    <circle cx="492.265" cy="2103.51" r="29.207" style="fill:rgb(107,107,107);stroke:black;stroke-width:8.33px;"/>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,575.529,-428.545)">
+            <text x="238.66px" y="2239.1px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:125px;">-</text>
+        </g>
+        <g transform="matrix(1,0,0,1,936.684,-413.856)">
+            <text x="238.66px" y="2221.19px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:100px;">+</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-685.805,-700.849)">
+        <path d="M744.897,1740.41L1273.68,1740.41" style="fill:none;stroke:black;stroke-width:3.75px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-702.68,-671.349)">
+        <g transform="matrix(1,0,0,1,568.226,-63.9897)">
+            <text x="162.239px" y="1520.9px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:50px;fill:rgb(52,182,133);">Labornetzteil</text>
+        </g>
+        <g transform="matrix(1,0,0,1,576.32,71.7347)">
+            <text x="162.239px" y="1508.97px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:33.333px;fill:rgb(52,182,133);">KAMW<tspan x="268.945px 280.045px " y="1508.97px 1508.97px ">-3</tspan>7</text>
+        </g>
+        <g transform="matrix(1,0,0,1,615.952,-32.7566)">
+            <text x="118.394px" y="1537.07px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:33.333px;">Power Supply</text>
+        </g>
+    </g>
+    <g id="DISP_VOLTS" transform="matrix(1,0,0,1,-667.94,-591.534)">
+        <text id="DISP_VOLTS_TEXT" xml:space="preserve" x="800.316px" y="1016.21px" style="font-family:'Courier';font-size:125px;">0.0V</text>
+    </g>
+    <defs>
+        <image id="_Image2" width="463px" height="85px" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCABVAc8DAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAEDAgj/xAAXEAEBAQEAAAAAAAAAAAAAAAAAERJh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwD2BUaKBQKBpahQWgUCgaFNAaA0BoDQGhCgUCgUCilAoFAoFBaIUCgUCgUUoFEKBQKBQKBQKBQKBQKBQhQhQhQKC0CgUCgUCgUCgw0imgNAaAoFBaBShShQKBQKBQKBQKBQKBQKBQKBQKBQKBoF0BoDQGgNAaA0BoDQGgNAaKFKFKFAoFAoFAoFA0C6KFAoFAoFAoFBhUUoFAoFAoFAoFAoFBaBQKBQNAaAohQKBQKBRSiFFKBRIUIUIUIUIUIUItFKIUCgUCgUCgUCgUCgUCgUCgUDQGgNAaA0C0CgUGNFKBQKBQKBQKBQKBQKBQKBQKBQKC0CgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgUCgtAoFAoFAoFAoMr0C9AvQKBQKBQKBQKBQKBQKBQKBQKBQKBQKBQKBQKC0CgUCgUCgUCgUCgUC9AvQKBQKBQKBQKBQKBegXoFBaBQKBQKBQKDMUAAAAAAAAACAQCAQCAQCAQCAQCAQCAQCAQEAAKBQKBQKBQKBQKBQKC0CgUCgUCgUCgUCgUCgUCgUCgUCg4FgEAgEAgEAgEAgEAgEAgEAgEAgEAgEAigAAAAAAAAAAUCgUNKGlDShpQ0oaUNKGlDSgUCgUCgUCgUCgUCgUCgUCg5AAAAopQKBQKIUCgUCgUCgUUoFAoFEKBQKBQKBQWilAoFAohQKBQKBQKBRSgUCgUQoFAoFAoFAopQKBQKJShShShShShUFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/9k="/>
+        <image id="_Image4" width="463px" height="31px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAc8AAAAfCAYAAACBMUawAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACDUlEQVR4nO3cS3LCMBBFUZNi/wvNKDsg03zBjiPUr3XOAigMrWu5bLi8vb7eNgBgt5fZbwAA0jh5AsBBTp4AcJCTJwAcdL1cLrPfA2zbtm0tn1y7tTwqWN51c/LsJTjWLSfR+qKY3ELcMaF75688g2Pd0uRYmwaWENy9ltu5Cd27nn4FO2s+MA0DBIe6LZvU5bnnyTc3sa7FGuULEzHAwe7VuOcp1qXYUMF4NqnFHOzetUQmxfrfWZZ8ItTl2KRmq3Hlyb+b/q2KdS3W+RCmfF197nk2jHX0EXWZK7hj+pQ37F6K80/bVtEw1v2OiHgNYx19RA27l6LPlWdR0QvzNw0Dyk4Ne9HviHiGjHuewbEO+HSPS5gZlpFbhzuCm7eKGk/bPuIHyTBWcKwjGnaUDWp5GVeek/mEBgiOdUs2qHDIMvc8/SC5mEXmjn1MwyC6N0yfp20fWGWTALPYoBake8NEXXlamnwi1qUktQTOirrnOf2dinUtQbObwoTzje796OlP20Z/DWJNc9MnXKjr0b0fPf3K09dAKQ1jHX1EQk2IP93zjF6cv2kYUXZoGOt+R0S8hn3909O2LRdnw4iSq19qtpYBZaeGfY16YAgOCY51y1WpNRRzphBRP1UpLzjWLfnXHBgrvHlnCrHMnyQ8hY0IH5iGAcJj3U6B5s2aCFeecId/zSlGr/hi1kS8AzkWZmOAYe21AAAAAElFTkSuQmCC"/>
+    </defs>
+</svg>
