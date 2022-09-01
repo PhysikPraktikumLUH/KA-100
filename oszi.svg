@@ -58,10 +58,13 @@
                     <text x="0px" y="0px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:141.726px;fill:rgb(65,65,65);">Datenkompetenz im PhysikPraktikum</text>
                 </g>
                 <g transform="matrix(0.96788,0,0,0.96788,31.3978,2158.92)">
-                    <text x="0px" y="0px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:141.726px;fill:rgb(65,65,65);">Code by Kai A. Mueller 2021</text>
+                    <text x="0px" y="0px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:141.726px;fill:rgb(65,65,65);">Code by Kai A. Mueller 2022</text>
                 </g>
                 <g transform="matrix(0.96788,0,0,0.96788,31.3978,2308.92)">
-                    <text x="0px" y="0px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:141.726px;fill:rgb(65,65,65);">Project by Dr. Kim-A. Weber 2021</text>
+                    <text x="0px" y="0px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:141.726px;fill:rgb(65,65,65);">Project by Dr. Kim-A. Weber 2022</text>
+                </g>
+                <g transform="matrix(0.96788,0,0,0.96788,31.3978,2458.92)">
+                    <text x="0px" y="0px" style="font-family:'STHeitiTC-Medium', 'Heiti TC';font-size:141.726px;fill:rgb(65,65,65);">v0.2 - GNU Affero General Public License</text>
                 </g>
             </g>
         </g>
