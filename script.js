@@ -10,7 +10,12 @@ var fgImg1 = document.getElementById("fgImg1");
 var fgImg2 = document.getElementById("fgImg2");
 var micImg1 = document.getElementById("micImg1");
 var micImg2 = document.getElementById("micImg2");
+
+
 var ALL_SVG_IMG = [osziImg, fgImg1, fgImg2, netzteilImg1, netzteilImg2, micImg1, micImg2];
+
+
+
 var imgWidth = 0;
 var imgHeight = 0;
 var OSZI_ASPECT_RATIO = 778.0 / 1765.0;
@@ -81,6 +86,7 @@ var COLORS = [
 		"rgb(53,53,53)"
 	]
 ];
+
 var OSZI_GRID_TO_CANVAS_RATIO_X = 10.4;
 var OSZI_GRID_TO_CANVAS_RATIO_Y = 8.4;
 var DEFAULT_SAMPLERATE = 1000;
@@ -91,7 +97,6 @@ var data_buffer_end = 0;
 var data_buffer_full = false;
 
 var showFps = false;
-
 var osziFrozen = false;
 var aboutToPause = false;
 
@@ -173,8 +178,17 @@ var fg2oscillator = 0;
 var fg1volume = 0;
 var fg2volume = 0;
 
-window.addEventListener('load', function() {
-	// window.onresize = updateWindowSize;
+var svg_loaded_count = 0
+for (svg of ALL_SVG_IMG) {
+    svg.addEventListener("load", () => {
+        svg_loaded_count++;
+        if (svg_loaded_count == ALL_SVG_IMG.length) {
+            all_loaded();
+        }
+    })
+}
+
+function all_loaded() {
 	c.addEventListener('mousedown', canvasMousePress);
 
 	triggerled = osziImg.contentDocument.getElementById("Trigd");
@@ -297,7 +311,6 @@ window.addEventListener('load', function() {
 	addLed(fg2fqmodeleds, "_100Hz_OFF", 100, fgImg2);
 	addLed(fg2fqmodeleds, "_10Hz_OFF", 10, fgImg2);
 	addLed(fg2fqmodeleds, "_1Hz_OFF", 1, fgImg2);
-
 	
 	triggernormbutton = getButtonByName("BTN_Norm");
 	updateWindowSize();
@@ -306,7 +319,9 @@ window.addEventListener('load', function() {
 	updateFgFunctionLed();
 	updateFgFqLed();
 	window.setTimeout(tick, 0);
-});
+
+	console.log("hi")
+}
 
 function Ch1PosClick() {
 	if (getButtonByName("BTN2")["pressed"]) {
@@ -1037,15 +1052,15 @@ function updateWindowSize() {
 }
 
 function updateConnectionDevides1() {
-	netzteilImg1.style.display = "none";
+	netzteilImg1.style.visibility = "hidden";
 	dc1slider.style.display = "none";
-	fgImg1.style.display = "none";
+	fgImg1.style.visibility = "hidden";
 	fg1ampslider.style.display = "none";
 	fg1fqslider.style.display = "none";
 	fg1fqfineslider.style.display = "none";
-	micImg1.style.display = "none";
+	micImg1.style.visibility = "hidden";
 	if (inputsch1.value == "dc") {
-		netzteilImg1.style.display = "block";
+		netzteilImg1.style.visibility = "visible";
 		dc1slider.style.display = "block";
 	}
 	else if (inputsch1.value == "fg") {
@@ -1053,9 +1068,9 @@ function updateConnectionDevides1() {
 		getButtonByName("Knob_Amp", fgImg1)["pressed"] = false;
 		updateButtonColor(getButtonByName("Knob_Freq", fgImg1), false)
 		updateButtonColor(getButtonByName("Knob_Amp", fgImg1), false)
-		fgImg1.style.display = "block";
+	fgImg1.style.visibility = "visible";
 	} else if (inputsch1.value == "mic") {
-		micImg1.style.display = "block";
+		micImg1.style.visibility = "visible";
 		if (!audioStarted) {
 			initAudio();
 		}
@@ -1065,15 +1080,15 @@ function updateConnectionDevides1() {
 	}
 }
 function updateConnectionDevides2() {
-	netzteilImg2.style.display = "none";
+	netzteilImg2.style.visibility = "hidden";
 	dc2slider.style.display = "none";
-	fgImg2.style.display = "none";
+	fgImg2.style.visibility = "hidden";
 	fg2ampslider.style.display = "none";
 	fg2fqslider.style.display = "none";
 	fg2fqfineslider.style.display = "none";
-	micImg2.style.display = "none";
+	micImg2.style.visibility = "hidden";
 	if (inputsch2.value == "dc") {
-		netzteilImg2.style.display = "block";
+		netzteilImg2.style.visibility = "visible";
 		dc2slider.style.display = "block";
 	}
 	else if (inputsch2.value == "fg") {
@@ -1081,10 +1096,10 @@ function updateConnectionDevides2() {
 		getButtonByName("Knob_Amp", fgImg2)["pressed"] = false;
 		updateButtonColor(getButtonByName("Knob_Freq", fgImg2), false)
 		updateButtonColor(getButtonByName("Knob_Amp", fgImg2), false)
-		fgImg2.style.display = "block";
+		fgImg2.style.visibility = "visible";
 	}
 	else if (inputsch2.value == "mic") {
-		micImg2.style.display = "block";
+		micImg1.style.visibility = "visible";
 		if (!audioStarted) {
 			initAudio();
 		}

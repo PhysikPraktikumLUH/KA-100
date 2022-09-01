@@ -15,24 +15,6 @@
 	<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div class="connectionscontainer">
-			<object id="netzteilImg1" object type="image/svg+xml" data="labornetzteil.svg" style="display: block; position: absolute;"></object>
-			<object id="netzteilImg2" object type="image/svg+xml" data="labornetzteil.svg" style="display: block; position: absolute;"></object>
-			<input type="range" class="verticalslider" min="-100" max="100" value="10" id="dc1slider" style="display: block; position: absolute"></input>
-			<input type="range" class="verticalslider" min="-100" max="100" value="10" id="dc2slider" style="display: block; position: absolute"></input>
-
-			<object id="fgImg1" object type="image/svg+xml" data="funktionsgenerator.svg" style="display: block; position: absolute;"></object>
-			<object id="fgImg2" object type="image/svg+xml" data="funktionsgenerator.svg" style="display: block; position: absolute;"></object>
-			<input type="range" class="verticalslider" min="0" max="100" value="10" id="fg1ampslider" style="display: none; position: absolute"></input>
-			<input type="range" class="verticalslider" min="0" max="100" value="10" id="fg2ampslider" style="display: none; position: absolute"></input>
-			<input type="range" class="verticalslider" min="0" max="98" value="0" id="fg1fqslider" style="display: none; position: absolute"></input>
-			<input type="range" class="verticalslider" min="0" max="98" value="0" id="fg2fqslider" style="display: none; position: absolute"></input>
-			<input type="range" class="verticalslider" min="0" max="100" value="0" id="fg1fqfineslider" style="display: none; position: absolute"></input>
-			<input type="range" class="verticalslider" min="0" max="100" value="0" id="fg2fqfineslider" style="display: none; position: absolute"></input>
-			
-			<object id="micImg1" object type="image/svg+xml" data="microphone.svg" style="display: block; position: absolute;"></object>
-			<object id="micImg2" object type="image/svg+xml" data="microphone.svg" style="display: block; position: absolute;"></object>
-		</div>
 		<div id="container">
 			<object id="osziImg" object type="image/svg+xml" data="oszi.svg" style="display: block; position: absolute"></object>
             <select name="inputsch1" id="inputsch1" onchange="updateConnectionDevides1();" style="position: absolute; display: none">
@@ -53,8 +35,24 @@
 			<input type="range" class="verticalslider" min="-150" max="150" value="0" id="triggerlevelslider"></input>
 			<canvas id="canvas" width="0" height="0"></canvas>
 			<canvas id="canvasbuf" width="0" height="0"></canvas>
-		</div>
-		<div class="otherstuff">
+			
+			<object id="netzteilImg1" object type="image/svg+xml" data="labornetzteil.svg" style="display: block; position: absolute;"></object>
+			<object id="netzteilImg2" object type="image/svg+xml" data="labornetzteil.svg" style="display: block; position: absolute;"></object>
+			<input type="range" class="verticalslider" min="-100" max="100" value="10" id="dc1slider" style="display: block; position: absolute"></input>
+			<input type="range" class="verticalslider" min="-100" max="100" value="10" id="dc2slider" style="display: block; position: absolute"></input>
+
+			<object id="fgImg1" object type="image/svg+xml" data="funktionsgenerator.svg" style="display: block; position: absolute;"></object>
+			<object id="fgImg2" object type="image/svg+xml" data="funktionsgenerator.svg" style="display: block; position: absolute;"></object>
+			<input type="range" class="verticalslider" min="0" max="100" value="10" id="fg1ampslider" style="display: none; position: absolute"></input>
+			<input type="range" class="verticalslider" min="0" max="100" value="10" id="fg2ampslider" style="display: none; position: absolute"></input>
+			<input type="range" class="verticalslider" min="0" max="98" value="0" id="fg1fqslider" style="display: none; position: absolute"></input>
+			<input type="range" class="verticalslider" min="0" max="98" value="0" id="fg2fqslider" style="display: none; position: absolute"></input>
+			<input type="range" class="verticalslider" min="0" max="100" value="0" id="fg1fqfineslider" style="display: none; position: absolute"></input>
+			<input type="range" class="verticalslider" min="0" max="100" value="0" id="fg2fqfineslider" style="display: none; position: absolute"></input>
+			
+			<object id="micImg1" object type="image/svg+xml" data="microphone.svg" style="display: block; position: absolute;"></object>
+			<object id="micImg2" object type="image/svg+xml" data="microphone.svg" style="display: block; position: absolute;"></object>
+			
 			<label id="FPS"></label>
 			<button type="button" id="freeze" onclick="FreezeButton();">Freeze Oszilloscope</button>
 			<button type="button" id="download" onclick="DownloadButton();" disabled="true">Download current Data</button>
